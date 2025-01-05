@@ -1,0 +1,39 @@
+:root {
+  --cor-branco: #ffffff;
+  --cor-laranja: #ff7300;
+  --cor-cinza: #4e4e4e;
+  --cir-ciza-claro:#545454;
+  --cor-preto: #000000;
+
+  --cor-branco-70-t: rgba(255, 255, 255, 0.7);
+  --cor-laranja-70-t: rgba(255, 115, 0, 0.7);
+  --cor-cinza-70-t: rgba(78, 78, 78, 0.7);
+  --cor-preto-70-t: rgba(0, 0, 0, 0.7);
+}
+
+@media (min-width: 501px) {
+  :root {
+    --altura-bloco-padrao: 500px;
+    --largura-bloco-padrao: 800px; 
+  }
+}
+@media (max-width: 500px) {
+  root {
+    --altura-bloco-padrao: 100%;
+    --largura-bloco-padrao: 80%; 
+  }
+}
+
+@font-face {
+  font-family: "VinSansPro-Regular";
+  src: url("../assets/font/VinSansPro-Regular.otf") format("opentype");
+  src: url("../assets/font/VinSansPro-Regular.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "VinSansPro-Bold";
+  src: url("../assets/font/VinSansPro-Bold.otf") format("opentype");
+  src: url("../assets/font/VinSansPro-Bold.ttf") format("truetype");
+  font-weight: bold;
+}

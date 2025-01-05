@@ -1,0 +1,106 @@
+@import "./base.css";
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  margin: 0;
+  padding: 0;
+}
+#app {
+  font-weight: normal;
+  font-family: "VinSansPro-Regular";
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+}
+h1{
+  margin-bottom: 0px;
+}
+h2{
+  margin-top: 5px;
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h3 {
+  font-family: "VinSansPro-Bold";
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 26px;
+  text-align: start;
+  border-bottom-style: solid;
+  border-color: var(--cor-laranja);
+  border-width: 5px;
+}
+
+p, li,ul{
+  /* text-indent: 12px; */
+  font-size: 16px;
+}
+
+.show {
+  display: flex !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+
+ul{
+  margin: 0;
+  padding: 0;
+  margin-left: 16px;
+}
+
+li{
+  word-spacing: 4px;
+  margin-bottom: 5px;
+  transform: 1.5s;
+  
+}
+
+@keyframes shadow-pop-bl {
+  0% {
+    box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e,
+      0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+    transform: translateX(0) translateY(0);
+  }
+
+  100% {
+    box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e,
+      -4px 4px #3e3e3e, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e,
+      -8px 8px #3e3e3e;
+    transform: translateX(8px) translateY(-8px);
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+    text-align: center;
+    max-width: 90%;
+    border-bottom-style: solid;
+    border-color: var(--cor-laranja);
+    border-width: 5px;
+  }
+  h1,h2{
+    margin-left: 6px;
+  }
+}
