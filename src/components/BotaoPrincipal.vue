@@ -31,9 +31,9 @@ export default{
    <button :class="claroEscuro()" v-if="verificaRota() === 'botao'">
         <slot></slot>
    </button>
-   <a :href="rota" :class="claroEscuro()" v-else-if="verificaRota() === 'a'">
+   <router-link :to="rota" :class="claroEscuro()" v-else-if="verificaRota() === 'a'">
     <slot></slot>
-   </a>
+   </router-link>
 
 </template>
 

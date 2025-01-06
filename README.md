@@ -1,15 +1,12 @@
-# site_sb
+# SB Foodtech
 
-Cliente para o site da empresa SB FoodTach
-Status : produção
+WebPage desenvolvido para empresa SB Foodtech.
+Website developed for the company SB Foodtech.
 
-## Recommended IDE Setup
+[Site Link](https://sbfoodtech.com.br/)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+*Technology* : VUE.js
+*Status* : DEV
 
 ## Project Setup
 

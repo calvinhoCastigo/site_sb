@@ -1,5 +1,6 @@
 <script >
 import { ref } from 'vue';
+import { RouterView } from 'vue-router';
 
     export default{
         props:{
@@ -15,13 +16,13 @@ import { ref } from 'vue';
             return  {
                 paginas : ref([{
                     nome:'EQUIPAMENTOS',
-                    acesso:'/equipamentos',
+                    acesso:'equipamentos',
                 },{
                     nome:'PROJETOS',
-                    acesso:'/projetos',
+                    acesso:'projetos',
                 },{
                     nome:'CLIENTES',
-                    acesso:'/clientes',
+                    acesso:'clientes',
                 }
             ])}
         }
@@ -31,11 +32,13 @@ import { ref } from 'vue';
 </script>
 
 <template>
-    <a v-if="mobile" href="/">
-        Inicio
-    </a>
-    <a v-for="pagina in paginas" :href="pagina.acesso">
-        {{ pagina.nome }}
+    <a>
+        <router-link v-if="mobile" to="/">
+            Inicio
+        </router-link>
+        <router-link v-for="pagina in paginas" :to="pagina.acesso">
+            {{ pagina.nome }}
+        </router-link>
     </a>
 </template>
 
