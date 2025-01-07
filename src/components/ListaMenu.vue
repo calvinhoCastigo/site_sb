@@ -16,13 +16,13 @@ import { RouterView } from 'vue-router';
             return  {
                 paginas : ref([{
                     nome:'EQUIPAMENTOS',
-                    acesso:'equipamentos',
+                    acesso:'/equipamentos',
                 },{
                     nome:'PROJETOS',
-                    acesso:'projetos',
+                    acesso:'/projetos',
                 },{
                     nome:'CLIENTES',
-                    acesso:'clientes',
+                    acesso:'/clientes',
                 }
             ])}
         }
@@ -32,25 +32,23 @@ import { RouterView } from 'vue-router';
 </script>
 
 <template>
-    <a>
-        <router-link v-if="mobile" to="/">
-            Inicio
-        </router-link>
-        <router-link v-for="pagina in paginas" :to="pagina.acesso">
-            {{ pagina.nome }}
-        </router-link>
-    </a>
+    <router-link v-if="mobile" to="/" class="menu_itens">
+        Inicio
+    </router-link>
+    <router-link v-for="pagina in paginas" :to="pagina.acesso" class="menu_itens">
+        {{ pagina.nome }}
+    </router-link>
 </template>
 
 <style scoped>
-a{
+.menu_itens{
     color: var(--cor-branco) !important;
     text-decoration: none;
     text-transform: uppercase;
 }
    
 @media (min-width: 501px) {
-    a{
+    .menu_itens{
         font-size: 16px;
         border-style: none;
         text-align: start;
@@ -62,7 +60,7 @@ a{
 }
 
 @media (max-width: 500px) {
-    a{
+    .menu_itens{
         margin-right: 0px;
         margin-top: 10px;
         margin-bottom: 10px;

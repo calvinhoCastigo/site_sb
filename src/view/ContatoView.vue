@@ -1,6 +1,8 @@
 <script>
 import BotaoPrincipal from '@/components/BotaoPrincipal.vue';
-import PaginaContato from '@/components/paginas/PaginaContato.vue';
+import FormularioContato from '@/components/FormularioContato.vue';
+import MidiasSociais from '@/components/MidiasSociais.vue';
+import FaleConosco from '@/components/home/FaleConosco.vue';
 
 export default {
     name: "ContatoView",
@@ -16,7 +18,7 @@ export default {
                 block: 'start'
             });
         }
-    }, components: { BotaoPrincipal, PaginaContato }
+    }, components: { BotaoPrincipal, FormularioContato,MidiasSociais,FaleConosco }
 }
 </script>
 
@@ -33,7 +35,20 @@ export default {
         <img :src="banner" alt="">
     </section>
     <section id="elementos">
-        <PaginaContato />
+        <FaleConosco>
+        <h1>Redes sociais</h1>
+        <div class="container_ms">
+            <MidiasSociais
+                :por_estenso="true"
+                :facebook="true"
+                :instagram="true"
+                :email="true"
+                :whatsapp="true"
+                :telefone="true"
+                :black="false"
+            />
+        </div>
+    </FaleConosco>
     </section>
 </template>
 
@@ -76,6 +91,20 @@ export default {
     width: 100%;
     max-width: var(--largura-bloco-padrao);
 }
+
+.container_ms{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: var(--largura-bloco-padrao);
+    width: 100%;
+}
+h1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
 @media (min-width: 501px) {
     #banner img {
         width: 100%;
@@ -93,9 +122,6 @@ export default {
     #area_de_titulo p {
         font-size: 25px;
         max-width: 400px;
-    }
-    #elementos{
-        margin-top: 50px;
     }
 }
 

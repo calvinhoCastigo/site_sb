@@ -56,7 +56,7 @@ export default {
                     titulo: "para outros segmentos",
                     paragrafo: "A SB Foodtech se preocupa em atender a grande diversidade de negócios da alimentação da região Centro-Oeste, onde o food service está em pleno desenvolvimento! Por isso, escolhemos as principais marcas nacionais que possam agregar ao empreendedor.",
                     lista: [
-                        "EXTRATORAS PARA SUCOSw",
+                        "EXTRATORAS PARA SUCOS",
                         "SISTEMAS DE EXAUSTÃO E DE VENTILAÇÃO",
                         "PISTAS AQUECIDAS E REFRIGERADAS PARA BUFFETS",
                         "VITRINES E GÔNDOLAS PARA EXPOSIÇÃO DE PRODUTOS",

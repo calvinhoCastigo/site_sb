@@ -31,7 +31,7 @@ export default{
             list="listaObjetos"
         >
             <option value="0" disabled selected>
-                Ecolha uma area de atuação
+                <slot></slot>
             </option>
             <option
                 v-for="elemento in lista"

@@ -2,11 +2,12 @@
 import { useRoute } from 'vue-router';
 import BotaoPrincipal from '@/components/BotaoPrincipal.vue';
 import ControladorEmCirculo from '@/components/ControladorEmCirculo.vue';
-import projetos from '@/data/projetos';
-import area_de_atuacao from '@/data/area_de_atuacao';
+import equipamentos from '@/data/equipamentos';
+import industrias from '@/data/industrias';
+import tipo_equipamento from '@/data/tipo_equipamento';
 
 export default {
-    name: "ProjetoView",
+    name: "EquipamentoView",
     data() {
         const rota = useRoute();
 
@@ -17,31 +18,30 @@ export default {
         return {
             pagina: pagina,
             identificador: identificador,
-            projetos: projetos,
-            area_de_atuacao: area_de_atuacao,
-            projeto:{
+            equipamentos: equipamentos,
+            industrias: industrias,
+            tipo_equipamento: tipo_equipamento,
+            equipamento:{
                 nome:null,
-                local:null,
                 descricao:null,
-                areaAtuacao:null,
-                ano:null,
+                indsutria:null,
+                tipo_equipamento:null,
                 imagens:[]
             },
             imageSrc:false
         }
     },
     methods: {
-        getObj(){
+        getObj()  {
+            let objeto = this.equipamentos.find(equip => equip.id == this.identificador);
+            let industria = this.industrias.find(ind => ind.id === objeto.industriaId);
+            let tipo_equipamento = this.tipo_equipamento.find(tipo_quip => tipo_quip.id === objeto.tipoEquipamentoId);
 
-            let objeto = this.projetos.find(proj => proj.id == this.identificador);
-            let area_de_atuacao = this.area_de_atuacao.find(ara => ara.id === objeto.areaDeAtucaoId);
-
-            this.projeto.nome = objeto.nome;
-            this.projeto.local = objeto.local;
-            this.projeto.ano = objeto.ano;
-            this.projeto.descricao = objeto.descricao;
-            this.projeto.areaAtuacao = area_de_atuacao.nome;
-            this.projeto.imagens = objeto.imagens;
+            this.equipamento.nome = objeto.nome;
+            this.equipamento.descricao = objeto.descricao;
+            this.equipamento.indsutria = industria.nome;
+            this.equipamento.tipo_equipamento = tipo_equipamento.nome;
+            this.equipamento.imagens = objeto.imagens;
 
         },
         showImg(img){
@@ -73,18 +73,17 @@ export default {
         </template>
         
         <div id="area_info">
-            <h1>{{projeto.nome}}</h1>
-            <h2>{{projeto.local}}</h2>
-            <p>{{projeto.descricao}}</p>
+            <h1>{{equipamento.nome}}</h1>
+            <p>{{equipamento.descricao}}</p>
             <div id="cont_all_desc">
                 <div class="container_desc">
-                    <h2>Cliente</h2>
-                    <p>{{ projeto.nome }}</p>
+                    <h2>Industria</h2>
+                    <p>{{ equipamento.indsutria }}</p>
                 </div>
 
                 <div class="container_desc">
-                    <h2>Area de atuação</h2>
-                    <p>{{ projeto.areaAtuacao }}</p>
+                    <h2>Tipo de Produto</h2>
+                    <p>{{ equipamento.tipo_equipamento}}</p>
                 </div>
             </div>
            
@@ -94,7 +93,7 @@ export default {
             <div id="container_imagem">
                 <img
                     class="midias equipamento"
-                    v-for="imagem in projeto.imagens"
+                    v-for="imagem in equipamento.imagens"
                     @click="showImg(imagem)"
                     :src="'/images/'+imagem"
                 />

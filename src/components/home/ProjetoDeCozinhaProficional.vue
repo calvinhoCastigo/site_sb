@@ -31,7 +31,6 @@ export default {
                         para
                         cozinhas profissionais e agrega benefícios como </p>
                     <ul>
-                        <!-- <li>Conhecimento das instalações de uma cozinha profissional;</li> -->
                         <li>Experiência em implantações;</li>
                         <li>Fluxos de serviço dentro das cozinhas;</li>
                         <li>Conhecimento em operações distintas (a la carte, self-service, cozinha para eventos

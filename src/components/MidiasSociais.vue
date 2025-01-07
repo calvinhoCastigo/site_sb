@@ -62,7 +62,7 @@ import { ref } from 'vue';
 
                 {
                     nome:'Email',
-                    acesso:'sbfoodtech.contato@terra.com.br',
+                    acesso:'contato@sbfoodtech.com.br',
                     link:'',
                     svg:'envelope-regular.svg',
                     svg_black:'envelope-regular-black.svg'

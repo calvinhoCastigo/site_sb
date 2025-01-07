@@ -1,6 +1,4 @@
 <script>
-import { ref } from "vue";
-import axios from "axios";
 
 export default {
     name: "DepoimentosCliente",
@@ -91,7 +89,7 @@ p {
 }
 
 span {
-    font-size: 24px;
+    font-size: 20px;
     text-transform: uppercase;
     font-family: VinSansPro-Bold;
 }

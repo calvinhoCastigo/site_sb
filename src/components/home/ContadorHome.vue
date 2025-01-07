@@ -22,7 +22,7 @@ export default {
           prefixo: "+"
         },
         {
-          titulo: "mebros da equipe",
+          titulo: "membros da equipe",
           valor: 13,
           prefixo: ""
         },
