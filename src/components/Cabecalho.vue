@@ -97,7 +97,7 @@ a{
   }
 
   #logo_sb {
-    height: 40px;
+    height: 60px;
   }
 
   nav {

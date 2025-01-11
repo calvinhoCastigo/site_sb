@@ -1,6 +1,17 @@
-<script setup>
+<script>
 import FormularioContato from "../FormularioContato.vue";
-const url_imagem = import.meta.env.VITE_IMGBODY;
+import FormularioContatoProvisorio from "../FormularioContatoProvisorio.vue";
+
+export default {
+    name: "FaleConosco",
+
+    data() {
+        const url_imagem = import.meta.env.VITE_IMGBODY;
+        return {
+            url_imagem: url_imagem
+        }
+    }, components: { FormularioContato, FormularioContatoProvisorio }
+}
 </script>
 <template>
     <section>
@@ -8,15 +19,17 @@ const url_imagem = import.meta.env.VITE_IMGBODY;
             <div class="cont_imagem">
                 <img :src="url_imagem + 'contato.png'" alt="" srcset="" />
             </div>
-            <div class="texto_bloco">
-                <slot></slot>
-                <h1>Fale Conosco</h1>
-                <FormularioContato />
+                <div class="texto_bloco">
+                <FormularioContatoProvisorio/>
+                <!-- <FormularioContato /> -->
             </div>
         </div>
     </section>
 </template>
 <style scoped>
+/** Midia social */
+
+/** Main */
 h1 {
     margin-top: 0px;
     margin-bottom: 20px;

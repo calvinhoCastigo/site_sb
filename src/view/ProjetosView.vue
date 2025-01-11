@@ -7,7 +7,7 @@ import projetos from '@/data/projetos';
 export default {
     name: "ProjetosView",
     data() {
-        const banner = import.meta.env.VITE_IMGBODY + 'banners/bannerarquit.png';
+        const banner = import.meta.env.VITE_IMGBODY + 'banners/Alameda dos Poemas - Imagem 02 REV01.png';
         return {
             banner: banner,
             mostraBotaoTodos: false,

@@ -1,13 +1,13 @@
 <script>
 import BotaoPrincipal from '@/components/BotaoPrincipal.vue';
 import FormularioContato from '@/components/FormularioContato.vue';
-import MidiasSociais from '@/components/MidiasSociais.vue';
+import FormularioContatoProvisorio from '@/components/FormularioContatoProvisorio.vue';
 import FaleConosco from '@/components/home/FaleConosco.vue';
 
 export default {
     name: "ContatoView",
     data() {
-        const banner = import.meta.env.VITE_IMGBODY + 'banners/bg1.jpg';
+        const banner = import.meta.env.VITE_IMGBODY + 'banners/IMG_4982 JPG.png';
         return {
             banner: banner
         }
@@ -18,7 +18,7 @@ export default {
                 block: 'start'
             });
         }
-    }, components: { BotaoPrincipal, FormularioContato,MidiasSociais,FaleConosco }
+    }, components: { BotaoPrincipal, FaleConosco }
 }
 </script>
 
@@ -26,8 +26,9 @@ export default {
     <section id="banner">
         <div id="area_de_titulo">
             <h1>Fale Conosco</h1>
-            <p>Ficou interessado em nossos produtos ou precisa contratar um projeto? 
-                Entre em contato conosco preenchendo o formulário abaixo. Um representante irá entrar em contato em até 48h! 	
+            <p>Ficou interessado em nossos produtos ou precisa contratar um projeto?
+                Entre em contato conosco preenchendo o formulário abaixo. Um representante irá entrar em contato em até
+                48h!
                 Agradecemos a oportunidade.</p>
             <BotaoPrincipal @click="scrollaAteMain">Veja Mais</BotaoPrincipal>
         </div>
@@ -35,20 +36,15 @@ export default {
         <img :src="banner" alt="">
     </section>
     <section id="elementos">
+        
+        <!-- <FormularioContatoProvisorio/> -->
         <FaleConosco>
-        <h1>Redes sociais</h1>
-        <div class="container_ms">
-            <MidiasSociais
-                :por_estenso="true"
-                :facebook="true"
-                :instagram="true"
-                :email="true"
-                :whatsapp="true"
-                :telefone="true"
-                :black="false"
-            />
-        </div>
-    </FaleConosco>
+            <!-- <h1>Redes sociais</h1>
+            <div class="container_ms">
+                <MidiasSociais :por_estenso="true" :facebook="true" :instagram="true" :email="true" :whatsapp="true"
+                    :telefone="true" :black="false" />
+            </div> -->
+        </FaleConosco>
     </section>
 </template>
 
@@ -83,7 +79,7 @@ export default {
 }
 
 
-#elementos{
+#elementos {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -92,8 +88,8 @@ export default {
     max-width: var(--largura-bloco-padrao);
 }
 
-.container_ms{
-    display:flex;
+.container_ms {
+    display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: row;
@@ -101,14 +97,17 @@ export default {
     max-width: var(--largura-bloco-padrao);
     width: 100%;
 }
-h1{
+
+h1 {
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
 @media (min-width: 501px) {
     #banner img {
         width: 100%;
     }
+
     #area_de_titulo {
         top: 23%;
         right: 20%;
