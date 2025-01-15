@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from "vue";
-import BotaoPrincipal from "../BotaoPrincipal.vue";
+import BotaoPrincipal from "../mainButton/BotaoPrincipal.vue";
 import ControladorEmCirculo from "../ControladorEmCirculo.vue";
 
 const url_imagem = import.meta.env.VITE_IMGBODY;

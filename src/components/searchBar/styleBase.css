@@ -1,0 +1,56 @@
+#resgataTodos {
+  text-transform: uppercase;
+  color: var(--cor-branco);
+}
+.barra_de_pesquisa {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  background-color: var(--cor-laranja);
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+}
+.barra_de_pesquisa select {
+  width: 85%;
+  background-color: transparent;
+  border-style: none;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  font-size: 17px;
+  color: var(--cor-branco);
+}
+.barra_de_pesquisa select option {
+  color: var(--cor-cinza);
+  text-transform: uppercase;
+}
+.barra_de_pesquisa select option:disabled {
+  color: transparent;
+}
+.button_cont button {
+  background-color: transparent;
+  border-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  min-width: 40px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.button_cont button:hover {
+  background-color: rgb(191, 81, 2);
+}
+.button_cont button img {
+  height: 16px;
+}
+
+.button_cont {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 15%;
+}

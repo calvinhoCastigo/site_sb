@@ -1,7 +1,7 @@
 <script>
 import { ref } from 'vue';
 import TheMask from 'vue-the-mask';
-import BotaoPrincipal from './BotaoPrincipal.vue';
+import BotaoPrincipal from './mainButton/BotaoPrincipal.vue';
 import axios from 'axios';
 
 export default {

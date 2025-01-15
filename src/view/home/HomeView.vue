@@ -75,7 +75,7 @@ video {
   width: 100%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 778px){
   main {
     margin-top: 100px;
   }

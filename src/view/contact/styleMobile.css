@@ -1,0 +1,19 @@
+#banner img {
+    height: 100%;
+    filter: brightness(50%);
+}
+
+#area_de_titulo {
+    top: 15%;
+    right: 6%;
+}
+
+#area_de_titulo h1 {
+    font-size: 360%;
+    max-width: 300px;
+    text-align: right;
+}
+
+#area_de_titulo p {
+    font-size: 40px;
+}

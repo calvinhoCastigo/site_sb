@@ -1,0 +1,40 @@
+#banner img {
+  height: 100%;
+  filter: brightness(50%);
+}
+
+#area_de_titulo {
+  top: 15%;
+  right: 6%;
+}
+
+#area_de_titulo h1 {
+  font-size: 360%;
+  max-width: 300px;
+  text-align: right;
+}
+
+#area_de_titulo p {
+  font-size: 40px;
+}
+
+.cliente_img {
+  width: 160px;
+  padding: 0px;
+}
+
+#elementos {
+  max-width: 100%;
+}
+.mobileHide {
+  display: none;
+}
+.mainContainer {
+  margin-top: 32px;
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 58px;
+}

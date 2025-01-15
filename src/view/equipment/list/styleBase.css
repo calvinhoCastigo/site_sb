@@ -1,0 +1,99 @@
+#banner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100% !important;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+  }
+  
+  #area_de_titulo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    position: absolute;
+    color: var(--cor-branco);
+    z-index: 2;
+  }
+  
+  #area_de_titulo h1 {
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  
+  #area_de_titulo p {
+    text-align: right;
+  }
+  
+  #elementos {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: var(--largura-bloco-padrao);
+  }
+  h2 {
+      width: 100%;
+      background-color: var(--cor-laranja);
+      color: var(--cor-branco);
+      padding-left: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+  
+  }
+  
+  .equipamento {
+      transition: 0.5s;
+      cursor: pointer;
+      border-style: solid;
+      border-width: 5px;
+      border-color: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 20px;
+      width: 200px;
+  }
+  
+  .equipamento img {
+      width: 200px;
+  }
+  
+  a {
+      text-decoration: none;
+  }
+  
+  .equipamento p {
+      text-decoration: none;
+      color: var(--cor-preto);
+      font-size: 16px;
+      text-align: center;
+  }
+  
+  .equipamento p {
+      margin-bottom: 0px;
+      font-family: "VinSansPro-Bold";
+  }
+  
+  .equipamento p:last-child {
+      margin-top: 0px;
+      font-family: "VinSansPro-Regular";
+  }
+  
+  .equipamento:hover {
+      border-color: var(--cor-laranja);
+  }
+  
+  .container_equipamentos {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+      width: 100%;
+      flex-wrap: wrap;
+  }

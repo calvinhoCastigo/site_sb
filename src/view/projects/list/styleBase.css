@@ -1,0 +1,146 @@
+main {
+  width: 100%;
+}
+.logo_empresa {
+  position: absolute;
+  opacity: 0%;
+  transition: 0.5s;
+}
+.logo_empresa:hover {
+  opacity: 100%;
+}
+.img_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projetos {
+  transition: 0.5s;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 5px;
+  border-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.projetos img {
+  width: 350px;
+}
+
+a {
+  text-decoration: none;
+}
+.projetos p {
+  text-decoration: none;
+  color: var(--cor-preto);
+  font-size: 16px;
+}
+.projetos p {
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  font-family: "VinSansPro-Bold";
+}
+.projetos p:last-child {
+  margin-top: 0px;
+  font-family: "VinSansPro-Regular";
+}
+.projetos:hover {
+  border-color: var(--cor-laranja);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow-x: hidden;
+  width: 100%;
+}
+section:first-child {
+  margin-top: 20px;
+}
+.container_projetos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.container_imagem {
+  height: 40px;
+  width: 40px;
+  background-color: var(--cor-cinza);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-color: var(--cor-laranja);
+  border-width: 5px;
+}
+.container_imagem img {
+  width: 45%;
+}
+.titulo_setor {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 20px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--cor-laranja);
+  border-bottom-width: 5px;
+}
+h2 {
+  width: 100%;
+  background-color: var(--cor-laranja);
+  color: var(--cor-branco);
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#banner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100% !important;
+  background-color: black;
+  overflow: hidden;
+}
+
+#area_de_titulo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  position: absolute;
+  color: var(--cor-branco);
+  z-index: 2;
+  width: 100%;
+}
+
+#area_de_titulo h1 {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+#area_de_titulo p {
+  text-align: right;
+}
+
+#elementos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: var(--largura-bloco-padrao);
+}

@@ -1,0 +1,49 @@
+#banner img {
+  filter: brightness(40%);
+  max-height: 790px;
+}
+
+#area_de_titulo {
+  top: 15%;
+  right: 6%;
+}
+
+#area_de_titulo h1 {
+  font-size: 360%;
+  max-width: 300px;
+  text-align: right;
+}
+
+#area_de_titulo p {
+  font-size: 32px;
+  max-width: 80%;
+}
+section {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.container_imagem,
+.titulo_setor {
+  max-width: 90%;
+}
+.projetos img {
+  width: 320px;
+}
+.container_projetos {
+  width: 90%;
+}
+.container_projetos {
+  justify-content: center;
+}
+#elementos {
+  max-width: 100%;
+}
+.mobileHide {
+  display: none;
+}
+.mainContainer {
+  margin-top: 32px;
+}

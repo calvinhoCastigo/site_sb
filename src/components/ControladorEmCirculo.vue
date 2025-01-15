@@ -106,7 +106,7 @@ button:hover {
 @media (max-width: 500px) {
     button {
         margin-right: 18px;
-        border-width: 4px;
+        border-width: 2.4px;
         height: 18px;
         width: 18px;
     }

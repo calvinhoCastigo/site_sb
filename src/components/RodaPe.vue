@@ -1,7 +1,8 @@
 <script setup>
-import MidiasSociais from "./MidiasSociais.vue";
+import MidiasSociais from "./socialMedias/MidiasSociais.vue";
 import ListaMenu from "./ListaMenu.vue";
 import FormularioContato from "./FormularioContato.vue";
+import FormularioContatoProvisorio from "./FormularioContatoProvisorio.vue";
 
 const url_imagem = import.meta.env.VITE_IMGRODAPE;
 </script>
@@ -19,14 +20,25 @@ const url_imagem = import.meta.env.VITE_IMGRODAPE;
         </div>
         <div class="container_footer">
           <img :src="url_imagem + '01.png'" class="imagensFooter" alt="" />
-          <FormularioContato :labels="false" />
+          <!-- <FormularioContato :labels="false" /> -->
+          <div>
+            <MidiasSociais 
+                :por_estenso="true"
+                :email="true"
+                :facebook="true"
+                :instagram="true"
+                :whatsapp="true"
+                :telefone="true"
+                :button="true"
+            />
+          </div>
+          
         </div>
         <div class="container_footer">
           <img :src="url_imagem + '02.png'" class="imagensFooter" alt="" />
           <div class="info_container">
             <div>
               <h3>ENDEREÇO</h3>
-
               <span>Rua dos Miosótis, 151.</span>
               <span>Jardim Cuiabá, Cuiabá-MT.</span>
             </div>
@@ -52,8 +64,8 @@ const url_imagem = import.meta.env.VITE_IMGRODAPE;
             <div>
               <h3>E-mail</h3>
               <MidiasSociais :por_estenso="true" :email="true" />
-            </div>  
-            <div>  
+            </div>
+            <div>
               <h3>Redes Sociais</h3>
               <MidiasSociais :por_estenso="true" :instagram="true" :facebook="true" />
             </div>
@@ -128,7 +140,7 @@ h3 {
 
 .imagensFooter {
 
-  
+
   box-shadow: -15px 20px 0px 0px var(--cor-laranja);
   margin-right: 20px;
 }
@@ -194,7 +206,8 @@ span {
   .container_footer img {
     display: none;
   }
-  .info_container{
+
+  .info_container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -203,7 +216,8 @@ span {
     margin: 0px;
     width: 100%;
   }
-  .info_container div{
+
+  .info_container div {
     width: 50%;
     max-width: 118px;
     margin: 0px;

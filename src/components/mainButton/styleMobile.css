@@ -1,0 +1,11 @@
+button,
+a,
+input[type="submit"] {
+  font-size: 16px;
+  border-width: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 26px;
+}

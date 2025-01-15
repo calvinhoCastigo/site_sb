@@ -1,6 +1,6 @@
 <script>
 import { ref } from "vue";
-import BotaoPrincipal from "../BotaoPrincipal.vue";
+import BotaoPrincipal from "../mainButton/BotaoPrincipal.vue";
 import ControladorEmCirculo from "../ControladorEmCirculo.vue";
 
 export default {

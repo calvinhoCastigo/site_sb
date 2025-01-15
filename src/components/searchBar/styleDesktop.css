@@ -1,0 +1,7 @@
+.barra_de_pesquisa {
+  margin-bottom: 40px;
+  padding-bottom: 8px;
+}
+.barra_de_pesquisa select {
+  padding-bottom: 8px;
+}

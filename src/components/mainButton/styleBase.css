@@ -1,0 +1,35 @@
+.prenchindo {
+  background-color: var(--cor-laranja);
+  color: var(--cor-branco);
+}
+.prenchindo:hover {
+  background-color: transparent;
+}
+.naoPrenchido {
+  background-color: transparent;
+  color: var(--cor-preto);
+}
+.naoPrenchido:hover {
+  background-color: var(--cor-laranja);
+  color: var(--cor-branco);
+}
+button,
+a,
+input[type="submit"] {
+  font-size: 16px;
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: var(--cor-laranja);
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: VinSansPro-Bold;
+}
+a {
+  text-decoration: none;
+}

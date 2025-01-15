@@ -1,0 +1,31 @@
+#banner img {
+  width: 100%;
+}
+
+#area_de_titulo {
+  top: 23%;
+  right: 20%;
+}
+
+#area_de_titulo h1 {
+  font-size: max(100px);
+  max-width: 400px;
+}
+
+#area_de_titulo p {
+  font-size: 25px;
+  max-width: 400px;
+}
+
+#elementos {
+  margin-top: 50px;
+}
+
+section:first-child {
+  margin-top: 20px;
+}
+
+section {
+  max-width: var(--largura-bloco-padrao);
+  width: 100%;
+}

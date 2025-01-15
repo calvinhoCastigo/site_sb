@@ -11,14 +11,13 @@
   --cor-preto-70-t: rgba(0, 0, 0, 0.7);
 }
 
-@media (min-width: 501px) {
-  :root {
-    --altura-bloco-padrao: 500px;
-    --largura-bloco-padrao: 800px; 
-  }
+:root {
+  --altura-bloco-padrao: 500px;
+  --largura-bloco-padrao: 800px; 
 }
-@media (max-width: 500px) {
-  root {
+
+@media (max-width: 778px){
+  :root {
     --altura-bloco-padrao: 100%;
     --largura-bloco-padrao: 80%; 
   }

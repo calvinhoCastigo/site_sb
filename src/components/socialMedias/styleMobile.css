@@ -1,0 +1,11 @@
+.button {
+  max-width: 80%;
+  min-width: 220px;
+  width: 100%;
+}
+.contatos{
+    margin-right: 0px !important;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

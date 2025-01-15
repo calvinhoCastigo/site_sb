@@ -1,0 +1,37 @@
+#banner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  max-width: 100% !important;
+  background-color: black;
+  overflow: hidden;
+}
+
+#area_de_titulo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  position: absolute;
+  color: var(--cor-branco);
+  z-index: 2;
+}
+
+#area_de_titulo h1 {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+#area_de_titulo p {
+  text-align: right;
+}
+
+#elementos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: var(--largura-bloco-padrao);
+}

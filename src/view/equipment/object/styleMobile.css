@@ -1,0 +1,21 @@
+#area_info {
+  width: 95%;
+}
+
+.midias {
+  width: 95%;
+}
+h1 {
+  font-size: 34px;
+  text-align: left;
+}
+h1,
+h2 {
+  margin-left: 0px;
+}
+section {
+  width: 90%;
+}
+p {
+  font-size: 18px;
+}

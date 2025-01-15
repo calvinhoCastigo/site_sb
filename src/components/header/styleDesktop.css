@@ -1,0 +1,64 @@
+#moblile {
+  display: none;
+}
+
+#decktop {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  transition: 0.1s;
+  background: var(--cor-cinza-70-t);
+}
+
+section:first-child {
+  padding-left: 100%;
+  padding-right: 100%;
+  background: var(--cor-cinza-70-t);
+  color: var(--cor-branco);
+  font-size: 12px;
+  height: 40px;
+}
+
+section:first-child div {
+  display: flex;
+}
+
+section:last-child {
+  height: 120px;
+}
+
+#logo_sb {
+  height: 60px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  flex-direction: row;
+  width: 95%;
+}
+
+a {
+  text-transform: uppercase;
+}
+
+#decktop:hover {
+  height: 140px;
+  background-color: var(--cor-cinza);
+}
+
+#decktop:hover section:first-child {
+  background-color: var(--cor-preto);
+}

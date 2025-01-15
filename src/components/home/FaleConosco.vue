@@ -27,9 +27,6 @@ export default {
     </section>
 </template>
 <style scoped>
-/** Midia social */
-
-/** Main */
 h1 {
     margin-top: 0px;
     margin-bottom: 20px;
@@ -38,7 +35,6 @@ h1 {
 p {
     width: 100%;
 }
-
 .texto_bloco {
     display: flex;
     flex-direction: column;
@@ -47,7 +43,6 @@ p {
     width: 100%;
     text-align: center;
     height: 700px;
-    background-color: var(--cor-cinza);
     padding-left: 50px;
     z-index: 1;
 }
@@ -101,21 +96,22 @@ img:hover {
 .bloco_central {
     height: 700px;
     width: 40px;
-    background-color: var(--cor-cinza);
     display: block;
     z-index: 1;
 }
-
-@media (max-width: 500px) {
-
+@media (min-width: 779px){
+    
+    .texto_bloco {
+        padding-left: 100px;
+    }
+}
+@media (max-width: 778px){
     section,
     .cont_bloco {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
         width: 100%;
-        padding-left: 0%;
-        padding-right: 0%;
     }
 
     .cont_imagem {
@@ -123,13 +119,11 @@ img:hover {
     }
 
     .texto_bloco {
+        padding-bottom: 20px;
+        padding-left: 0px !important;
         max-width: 100%;
-    }
-
-    .texto_bloco {
-        padding-top: 50px;
-        padding-bottom: 50px;
         padding-left: 0px;
+        height: 500px;
     }
 }
 </style>

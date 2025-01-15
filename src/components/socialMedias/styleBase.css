@@ -1,0 +1,36 @@
+.button:hover {
+    background-color: rgba(000, 000, 000, 0.2);
+    transform: scale(1.1);
+}
+.button{
+    border-style: solid;
+    border-color: #fff;
+    border-width: 2px;
+    border-radius: 4px;
+    font-size: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 12px;
+    transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contatos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 10px;
+}
+.contatos a{
+    color: var(--cor-branco);
+    text-decoration: none;
+}
+.contatos span{
+    text-align: center;
+    margin-left: 10px;
+}
+.contatos a img{
+    width: 20px !important;
+}

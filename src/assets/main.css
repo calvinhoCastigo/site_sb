@@ -6,7 +6,7 @@ body {
   padding: 0;
 }
 
-main{
+main {
   margin: 0;
   padding: 0;
 }
@@ -26,10 +26,10 @@ main{
 header {
   width: 100%;
 }
-h1{
+h1 {
   margin-bottom: 0px;
 }
-h2{
+h2 {
   margin-top: 5px;
   text-align: left;
 }
@@ -49,7 +49,9 @@ h1 {
   border-width: 5px;
 }
 
-p, li,ul{
+p,
+li,
+ul {
   /* text-indent: 12px; */
   font-size: 16px;
 }
@@ -62,18 +64,16 @@ p, li,ul{
   display: none !important;
 }
 
-
-ul{
+ul {
   margin: 0;
   padding: 0;
   margin-left: 16px;
 }
 
-li{
+li {
   word-spacing: 4px;
   margin-bottom: 5px;
   transform: 1.5s;
-  
 }
 
 @keyframes shadow-pop-bl {
@@ -91,7 +91,8 @@ li{
   }
 }
 
-@media (max-width: 600px) {
+
+@media (max-width: 778px){
   h1 {
     font-size: 20px;
     text-align: center;
@@ -100,7 +101,9 @@ li{
     border-color: var(--cor-laranja);
     border-width: 5px;
   }
-  h1,h2{
+  h1,
+  h2 {
     margin-left: 6px;
   }
 }
+
