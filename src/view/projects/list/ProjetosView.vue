@@ -1,5 +1,4 @@
 <script src="./script.js" />
-
 <template>
     <section id="banner">
         <div id="area_de_titulo">
@@ -23,7 +22,8 @@
                     :to="'/projeto/' + projeto.id + '/' + projeto.nome">
                     <div class="img_container">
                         <img :src="'images/' + projeto.logo" :alt="'logo ' + projeto.logo.nomePuro" class="logo_empresa">
-                        <img :src="'images/' + projeto.imagens[0]">
+                        <!-- <img :src="'images/' + projeto.thumbnail"> -->
+                        <img :src="'images/' + projeto.imagens[0]" alt="" srcset="">
                     </div>
 
                     <p>{{ }}</p>

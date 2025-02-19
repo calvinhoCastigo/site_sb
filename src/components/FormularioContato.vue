@@ -2,7 +2,6 @@
 import { ref } from 'vue';
 import TheMask from 'vue-the-mask';
 import BotaoPrincipal from './mainButton/BotaoPrincipal.vue';
-import axios from 'axios';
 
 export default {
     name: "FormularioContato",
@@ -32,13 +31,6 @@ export default {
             e.preventDefault();
             try {
                 const url = import.meta.env.VITE_EMAIL;
-                const response = await axios.post('/email',{
-                    nome:this.formulario.nome,
-                    email:this.formulario.email,
-                    cpfPj:this.formulario.cpfPj,
-                    telefone:this.formulario.telefone,
-                    mensagem:this.formulario.mensagem
-                });
                 console.log(response);
             } catch (error) {
                 

@@ -1,4 +1,4 @@
-<script src="/src/components/socialMedias/script.js"/>
+<script src="./script.js" />
 <template>
     <div v-for="contato in contatos" class="contatos">
         <template v-if="this.button">
@@ -20,7 +20,6 @@
 
     </div>
 </template>
-
 <style scoped>
 @import url(styleBase.css);
 @import url(styleMobile.css) (max-width: 778px) and (orientation:portrait);

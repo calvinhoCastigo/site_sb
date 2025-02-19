@@ -21,7 +21,8 @@
             <div class="container_equipamentos">
                 <router-link class="equipamento" v-for="equipamento in tipoEquipamento.equipamentos"
                     :to="'/equipamento/' + equipamento.id + '/' + equipamento.nome.replace('', '_')">
-                    <img :src="'images/' + equipamento.imagens[0]" alt="">
+                    <!-- <img :src="'images/' + equipamento.thumbnail" alt=""> -->
+                    <img :src="'images/' + equipamento.imagens[0]" alt="" srcset="">
                     <p>{{ equipamento.nome }}</p>
                     <p>{{ equipamento.industria }}</p>
                 </router-link>

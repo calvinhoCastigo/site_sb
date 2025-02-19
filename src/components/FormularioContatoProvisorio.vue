@@ -1,6 +1,6 @@
 <script>
-import BotaoPrincipal from './mainButton/BotaoPrincipal.vue';
-import MidiasSociais from './socialMedias/MidiasSociais.vue';
+import BotaoPrincipal from '@/components/mainButton/BotaoPrincipal.vue';
+import MidiasSociais from '@/components/socialMedias/MidiasSociais.vue';
 
 export default {
     name: "FormularioContatoProvisorio",

@@ -1,4 +1,4 @@
-<script src="/src/components/socialMedias/script.js"/>
+<script src="./script.js"/>
 <template>
   <header id="decktop">
     <section>
@@ -15,7 +15,7 @@
       </a>
       <nav>
         <ListaMenu />
-        <BotaoPrincipal :fillBg="true" :rota="'/contatos'">FALE CONOSCO</BotaoPrincipal>
+        <!-- <BotaoPrincipal :fillBg="true" :rota="'/contatos'">FALE CONOSCO</BotaoPrincipal> -->
       </nav>
     </section>
   </header>
@@ -26,7 +26,7 @@
     </section>
     <nav>
       <ListaMenu :mobile="true" />
-      <BotaoPrincipal :fillBg="true" :rota="'/contatos'">FALE CONOSCO</BotaoPrincipal>
+      <!-- <BotaoPrincipal :fillBg="true" :rota="'/contatos'">FALE CONOSCO</BotaoPrincipal> -->
     </nav>
   </header>
 </template>

@@ -3,6 +3,7 @@ export default [
         id: 1,
         nome: "Belatto Lanches",
         local: "Cuiabá - MT",
+        thumbnail:"thumbnais/projetos/amazon.jpg",
         logo: "projetos/logos/belatto.png",
         descricao: `O Belatto é uma operação de delivery de baguncinha, que atua há mais de 20 anos em Cuiabá. Como a cozinha já era existente, o desafio foi promover uma reforma com o mínimo de impacto na construção, mas possibilitando aumentar a capacidade produtiva. 
 Separamos a operação entre cozinha fria para saladas e molhos e cozinha quente para o preparo e expedição dos lanches. Além disso, também reformamos toda a fachada para maior conforto dos motoboys e melhor aspecto visual para os clientes que farão retirada no local!`,
@@ -22,6 +23,7 @@ Separamos a operação entre cozinha fria para saladas e molhos e cozinha quente
         id: 2,
         nome: "Brasido Restaurante",
         local: "Cuiabá - MT",
+        thumbnail:"thumbnais/projetos/amazon.jpg",
         logo: "projetos/logos/brasido.png",
         descricao: `O Brasido é uma operação de gastronomia brasileira, localizada em um Shopping de Cuiabá, sendo voltado para carnes, grelhados e massas. A diretriz do projeto foi o desejo do cliente de trazer o conceito de “cozinha vitrine”, no qual o cliente consegue acompanhar a finalização dos pratos no salão. 
 Também trabalhamos com a premissa de separar as praças, ou seja: temos uma sala  exclusiva para preparos de sucos, saladas e sobremesas, outra sala para lavagem de louças, outra para porcionamento de carnes, ultracongelamentos e por fim, a de finalização dos pratos com vista para os clientes!`,
@@ -37,6 +39,7 @@ Também trabalhamos com a premissa de separar as praças, ou seja: temos uma sal
         id: 3,
         nome: "Confeitaria Vilma",
         local: "Nova Mutum - MT",
+        thumbnail:"thumbnais/projetos/amazon.jpg",
         logo: "projetos/logos/vilma confeitaria.png",
         descricao: `A Confeitaria Vilma de Nova Mutum precisou se mudar para um novo endereço para comportar o crescimento da produção e da demanda de clientes! Em parceria com o arquiteto Thiago Adrião, projetamos uma nova loja com muita funcionalidade e estética, promovendo uma valorização dos produtos em exposição. Na área de produção, teremos uma sala fria para preparos de doces e folhados, uma cozinha quente para salgados e assamento de bolos e uma sala exclusiva para confeitos, finalizações e encomendas. `,
         imagens: [
@@ -57,6 +60,7 @@ Também trabalhamos com a premissa de separar as praças, ou seja: temos uma sal
         id: 4,
         nome: "dam gastrobar",
         local: "Cuiabá - MT",
+        thumbnail:"thumbnais/projetos/amazon.jpg",
         logo: "projetos/logos/dam3.png",
         descricao: `O Dam Gastrobar iniciou a operação com a ideia de ter uma cozinha enxuta para produção de hamburgueres e guarnições como croquetes da casa e porções. Porém, o tamanho muito reduzido impediu a viabilidade da implantação de delivery. Para que isso fosse possível, criamos um anexo à construção, onde ficarão os estoques e uma sala de produção fria para molhos e carnes e onde, futuramente, poderia ser uma cozinha exclusiva para delivery. Na antiga cozinha, deixamos apenas para preparos quentes, montagem dos lanches e expedição das porções!`,
         imagens: [
@@ -75,6 +79,7 @@ Também trabalhamos com a premissa de separar as praças, ou seja: temos uma sal
         id: 5,
         nome: "o paulistinha sanduíches",
         local: "Cuiabá - MT",
+        thumbnail:"thumbnais/projetos/amazon.jpg",
         logo: "projetos/logos/paulistinha.png",
         descricao: `O Paulistinha Sanduíches é uma franquia especializada em lanches tipo paulistinha. Até 2024, contavam com 15 lojas em diversos estados, sendo 3 somente em Cuiabá. Por isso, decidiram criar uma central de prepraros para serem distribuídos para as lojas apenas finalizarem os lanches e também operar delivery a noite. 
 Projetamos uma sala fria para preparo de molhos, carnes e manipulação especial do pão, que é um diferencial da casa. 
@@ -92,6 +97,7 @@ Além disso, temos a área de cocção de frente para a montagem dos lanches, pa
         id: 6,
         nome: "olive",
         local: "SINOP – MT",
+        thumbnail:"thumbnais/projetos/amazon.jpg",
         logo: "projetos/logos/olive.png",
         descricao: `A Olive começou na cozinha de apartamento, depois cresceu para uma pequena loja e, quando não era mais possível continuar, decidiu projetar uma padaria profissional adequada ao seu porte e crescimento! Começamos separando os estoques seco, de farinha especial com temperatura controlada e câmaras. Na sequência, criamos uma sala de preparo de lanches que também poderá oferecer almoços e por fim, a padaria climatizada para montagem de folhados e massas fermentadas. Os fornos ficarão em uma sala quente separada da produção e com um espaço para os assados descansarem antes de irem para as vitrines!`,
         imagens: [
@@ -114,6 +120,7 @@ Além disso, temos a área de cocção de frente para a montagem dos lanches, pa
         id: 7,
         nome: "de panela",
         local: "Cuiabá - MT",
+        thumbnail:"thumbnais/projetos/amazon.jpg",
         logo: "projetos/logos/de panela.png",
         descricao: `A De Panela é uma brigaderia, especializada em brigadeiros e brownies, que precisou automatizar seus processos para continuar aumentando sua cartela de clientes. Para isso, criamos uma pequena fábrica com uma masseira cozedora automática, uma formadora de doces, que poderá dividir e modelar automaticamente e uma bandeja giratória, que fará o acabamento perfeito de esferas e também passar o granulado ou o confeito de algum docinho boleado.`,
         imagens: [
@@ -129,6 +136,7 @@ Além disso, temos a área de cocção de frente para a montagem dos lanches, pa
         id: 8,
         nome: "la cerva",
         local: "Cuiabá - MT",
+        thumbnail:"thumbnais/projetos/amazon.jpg",
         logo: "projetos/logos/la cerva.png",
         descricao: `A La Cerva é um bar que começou oferecendo cervejas artesanais e passou a atrair ainda mais público quando passou a oferecer pratos e porções para acompanhar a bebida. Para isso, criamos uma pequena cozinha, equipada com fogão, chapa e charbroiler para grelhados e 2 fritadeiras para acelerar as porções. Em um pequeno espaço de 20m² conseguimos propor grande produtividade e aumento de faturamento para a cervejaria!`,
         imagens: [
@@ -143,6 +151,7 @@ Além disso, temos a área de cocção de frente para a montagem dos lanches, pa
         id: 9,
         nome: "Condomínio aquarela dos poemas",
         local: "SINOP – MT",
+        thumbnail:"thumbnais/projetos/amazon.jpg",
         logo: "projetos/logos/aquarela dos poemas.png",
         descricao: `A cozinha do alameda dos poemas é uma cozinha incrível para um condomínio de alto padrão em SINOP – MT. O restaurante do condomínio oferecerá pizzas, massas, carnes, grelhados e porções. Uma cozinha multifuncional com balcões refrigerados que oferecerão apoio de bancada e também refrigeração na parte inferior, garantindo a segurança alimentar dos moradores e aumentando a qualidade dos produtos!`,
         imagens: [
@@ -158,6 +167,7 @@ Além disso, temos a área de cocção de frente para a montagem dos lanches, pa
         id: 10,
         nome: "emma gastrobar",
         local: "Tangará da Serra - MT",
+        thumbnail:"thumbnais/projetos/amazon.jpg",
         logo: "projetos/logos/emma.png",
         descricao: `O Emma gastrobar é o primeiro restaurante de alto padrão de Tangará da Serra. A casa oferecerá massas especiais, carnes, grelhados e porções da casa. Separamos a cozinha em duas “zonas” de temperatura, sendo a parte mais fria para saladas e sobremesas e toda a cocção quente separada. O conceito adotado no projeto foi de cozinha vitrine, onde os clientes poderão acompanhar a finalização e empratamento das suas refeições.`,
         imagens: [
@@ -175,6 +185,7 @@ Além disso, temos a área de cocção de frente para a montagem dos lanches, pa
         id: 11,
         nome: "farol bar",
         local: "Cuiabá - MT",
+        thumbnail:"thumbnais/projetos/amazon.jpg",
         logo: "projetos/logos/farol bar.png",
         descricao: `O Farol é um bar que começou oferecendo bebidas e drinks e passou a atrair ainda mais público quando passou a oferecer pratos e porções para acompanhar a bebida. Para isso, criamos uma pequena cozinha, equipada com fogão, charbroiler para grelhados e 2 fritadeiras para acelerar as porções. Em um pequeno espaço de 20m² conseguimos propor grande produtividade e aumento de faturamento para o bar!`,
         imagens: [
@@ -188,6 +199,7 @@ Além disso, temos a área de cocção de frente para a montagem dos lanches, pa
         id: 12,
         nome: "flor de lótus ",
         local: "Nova Mutum – MT",
+        thumbnail:"thumbnais/projetos/amazon.jpg",
         logo: "projetos/logos/flor de lotus.png",
         descricao: `O Flor de Lotus é o novo salão para eventos de Nova Mutum, que poderá alugar o espaço para até 50 pessoas. Como eventos fornecem entradas, pratos e sobremesas, fizemos uma bancada com pias para lavagem, uma bancada de empratamentos e uma linha de cocção com equipamentos de alto rendimento. O bar será equipado para oferecer bebidas geladas e drinks autorais.`,
         imagens: [
@@ -207,6 +219,7 @@ Além disso, temos a área de cocção de frente para a montagem dos lanches, pa
         id: 13,
         nome: "bnp",
         local: "Cuiabá - MT",
+        thumbnail:"thumbnais/projetos/amazon.jpg",
         logo: "projetos/logos/bnp.png",
         descricao: `O BNP passou por uma reforma para melhorar o espaço de clientes, aumentar a cozinha e proporcionar mais conforto para os colaboradores. A ideia foi separar as áreas de preparo, a área quente e montagem e expedição dos lanches. Também fizemos uma bancada de expedição para o delivery, que tem bastante saída na casa`,
         imagens: [
@@ -223,6 +236,7 @@ Além disso, temos a área de cocção de frente para a montagem dos lanches, pa
         id: 14,
         nome: "femina",
         local: "Cuiabá - MT",
+        thumbnail:"thumbnais/projetos/amazon.jpg",
         logo: "projetos/logos/femina.png",
         descricao: `O hospital e maternidade Femina possuía uma cozinha antiga e defasada para a quantidade de pacientes e acompanhantes. Por isso, decidiram reformar um antigo estacionamento do hospital, transformando-o em mais de 400m² de cozinha profissional. 
 Como se tratava de um projeto hospitalar, todas as normas de higiene e boas práticas foram levadas ao pé da letra! Por isso, separamos praças por função e também por temperatura de trabalho. Temos uma sala de preparos frios, de preparo quente, de cocção, de ultracongelamento das sobras e montagem das bandejas para os leitos.`,
@@ -241,6 +255,7 @@ Como se tratava de um projeto hospitalar, todas as normas de higiene e boas prá
         id: 15,
         nome: "hotel amazon aeroporto",
         local: "Várzea Grande - MT",
+        thumbnail:"thumbnais/projetos/amazon.jpg",
         logo: "projetos/logos/amazon.png",
         descricao: `O Hotel Amazon aeroporto optou por fazer uma cozinha profissional tipo “coringa”, isto é, que poderia atender a diversas situações, já que o Hotel servirá café da manhã, coffee breaks, eventos, jantares, etc. Para isso, fizemos uma ilha de cocção bem equipada com equipamentos de alta produtividade, bancadas em todo o perímetro para apoiar os preparos e uma parede com bateria de geladeiras e freezers, mantendo uma setorização e um fluxo de trabalho.`,
         imagens: [
@@ -256,6 +271,7 @@ Como se tratava de um projeto hospitalar, todas as normas de higiene e boas prá
         id: 16,
         nome: "hotel rossi",
         local: "Comodoro – MT",
+        thumbnail:"thumbnais/projetos/amazon.jpg",
         logo: "projetos/logos/hotel rossi.png",
         descricao: `O Hotel Rossi optou por fazer uma cozinha profissional tipo “coringa”, isto é, que poderia atender a diversas situações, já que o Hotel servirá café da manhã, almoço a kg aberto para a cidade e jantar a la carte. Para isso, setorizamos a cozinha em 2 zonas de temperatura, sendo a mais fria o local de preparo do café da manhã, saladas e sobremesas e a zona quente, onde serão assados pães, salgados e preparos do almoço e jantar. O hotel também oferecerá um diferencial que é churrasco assado em espeto no almoço!`,
         imagens: [
@@ -278,6 +294,7 @@ Como se tratava de um projeto hospitalar, todas as normas de higiene e boas prá
         id: 17,
         nome: "japidinho",
         local: "Cuiabá - MT",
+        thumbnail:"thumbnais/projetos/amazon.jpg",
         logo: "projetos/logos/japidinho.png",
         descricao: `O Japidinho inaugurou a sua 4ª loja, desta vez, no Pantanal Shopping, em Cuiabá. Por ser uma loja de shopping, com apenas 70m² para cozinha e salão de clientes, cada centímetro era essencial! Fizemos uma cozinha super compacta, porém, com todos os setores separados de acordo com função e fluxo. Foi um desafio separar as zonas quentes e zonas frias em tão pouco espaço e, para isso, usamos tecnologia de barreiras com cortina de vento para não espalhar calor e cheiro pela loja. 
 O resultado foi uma cozinha esteticamente limpa e minimalista e aberta aos olhos do público, que poderá acompanhar os preparos de suas refeições.`,
@@ -300,6 +317,7 @@ O resultado foi uma cozinha esteticamente limpa e minimalista e aberta aos olhos
         id: 18,
         nome: "pata de vaca",
         local: "Nova Mutum - MT",
+        thumbnail:"thumbnais/projetos/amazon.jpg",
         logo: "projetos/logos/pata de vaca.png",
         descricao: `O Pata de Vaca é uma steakhouse em Nova Mutum – MT especializada em carnes nobres e alta gastronomia! Fizemos uma cozinha super equipada para atender aos pré-preparos e à finalização de pratos com o que há de melhor em equipamentos no mercado! A finalização dos pratos é visível para os clientes, trazendo dinamicidade e confiabilidade na operação do restaurante.`,
         imagens: [
@@ -321,6 +339,7 @@ O resultado foi uma cozinha esteticamente limpa e minimalista e aberta aos olhos
         id: 19,
         nome: "pizzaria D'tália",
         local: "Vilhena – RO",
+        thumbnail:"thumbnais/projetos/amazon.jpg",
         logo: "projetos/logos/dtalia.png",
         descricao: `A rede D’talia cresce a cada dia e inaugura mais uma unidade em Vilhena – RO. Tivemos a honra de participar da concepção deste projeto, que deverá atender a uma demanda de mais de 1000 pizzas entre salão e delivery. Além das pizzas, também será ofertado saladas, petiscos e porções da casa. A ideia no projeto foi separar a cozinha em 2 praças: a praça de confecção de pizzas, onde será uma área com intensa manipulação de farinha de trigo e, do outro lado, a praça de cocção de grelhados e porções, livre de outros contaminantes. Dessa maneira, a operação se mantém limpa e organizada!`,
         imagens: [
@@ -336,6 +355,7 @@ O resultado foi uma cozinha esteticamente limpa e minimalista e aberta aos olhos
         id: 20,
         nome: "restaurante verde vale",
         local: "Várzea Grande - MT",
+        thumbnail:"thumbnais/projetos/amazon.jpg",
         logo: "projetos/logos/verde vale.png",
         descricao: `O restaurante verde vale nos procurou com uma insatisfação inesperada: a cozinha era desfuncional por ser grande demais!! Por isso, as colaboradoras da cozinha se cansavam muito durante a operação e também levavam mais tempo para executar tarefas simples ao precisar percorrer grandes distâncias. Ao mesmo tempo, o salão estava pequeno para a demanda de clientes.
 Dessa maneira, optamos por fazer uma redução de 30% da área da cozinha, transformando-a em salão e aumentando a quantidade de assentos. Também reestruturamos todo o fluxo e praças da cozinha para que as colaboradoras não precisem fazer movimentações, mantendo a eficiência e rapidez na cozinha.`,
@@ -356,6 +376,7 @@ Dessa maneira, optamos por fazer uma redução de 30% da área da cozinha, trans
         id: 21,
         nome: "supermercado curió",
         local: "Cuiabá - MT",
+        thumbnail:"thumbnais/projetos/amazon.jpg",
         logo: "projetos/logos/curio.png",
         descricao: `O supermercado Curió inaugurou a sua 5ª loja em Cuiabá e, entendendo o custo de implantação de cada nova unidade e também o extenso quadro de colaboradores, optou por criar uma central de produção na nova loja e com isso, garantiu redução de desperdício, aumento de padronização, redução do investimento em novas lojas e manutenção de um quadro enxuto de funcionários. 
 Essa central abrigará toda a produção de pães, salgados, confeitarias e rotisserias de todas as lojas Curió. Os produtos serão enviados já embalados e/ou ultracongelados, mantendo segurança alimentar e qualidade dos protudos!`,
@@ -377,6 +398,7 @@ Essa central abrigará toda a produção de pães, salgados, confeitarias e roti
         id: 22,
         nome: "supermercado sorrinorte",
         local: "Sorriso – MT",
+        thumbnail:"thumbnais/projetos/amazon.jpg",
         logo: "projetos/logos/sorrinorte.png",
         descricao: `O supermercado Sorrinorte, em Sorriso – MT, optou por centralizar toda a sua operação de padaria, salgadaria, confeitaria e rotisseria em um espaço compacto para o tamanho da sua loja! Para isso funcionar, foi necessário um projeto bem planejado para atender os fluxos e boas práticas de operação.`,
         imagens: [
@@ -393,6 +415,7 @@ Essa central abrigará toda a produção de pães, salgados, confeitarias e roti
         id: 24,
         nome: "paninoteca",
         local: "Cuiabá - MT",
+        thumbnail:"thumbnais/projetos/amazon.jpg",
         logo: "projetos/logos/paninoteca.png",
         descricao: `A Paninoteca é uma casa especializada em paninis e especialidades italianas! Em 2024, precisaram mudar de endereço e realocar a sua cozinha profissional em um espaço reduzido, mas que fosse funcional. Dessa forma, aproveitamos todos os equipamentos  e mobiliários que já eram existentes, promovendo uma grande economia para o cliente, mas trazendo toda a funcionalidade que a operação necessita!`,
         imagens: [
@@ -409,6 +432,7 @@ Essa central abrigará toda a produção de pães, salgados, confeitarias e roti
         id: 25,
         nome: "nazca sushi",
         local: "Cuiabá - MT",
+        thumbnail:"thumbnais/projetos/amazon.jpg",
         logo: "projetos/logos/nazca.png",
         descricao: `O Nazca Sushi é uma operação de culinária japonesa, que opera na modalidade de delivery desde 2020. Atualmente, a cozinha ficou pequena para o volume de pedidos e precisaram mudar de endereço para uma cozinha maior e com um fluxo de trabalho adequado! 
 O grande desafio neste projeto foi conciliar o novo espaço com o aproveitamento de 100% dos equipamentos e mobiliários já existentes, o que possibilitou uma grande economia para o cliente! O resultado foi um projeto de rápida execução e muita funcionalidade!A Paninoteca é uma casa especializada em paninis e especialidades italianas! Em 2024, precisaram mudar de endereço e realocar a sua cozinha profissional em um espaço reduzido, mas que fosse funcional. Dessa forma, aproveitamos todos os equipamentos  e mobiliários que já eram existentes, promovendo uma grande economia para o cliente, mas trazendo toda a funcionalidade que a operação necessita!`,
@@ -429,6 +453,7 @@ O grande desafio neste projeto foi conciliar o novo espaço com o aproveitamento
         id: 26,
         nome: "nono pizza e grill",
         local: "Várzea Grande - MT",
+        thumbnail:"thumbnais/projetos/amazon.jpg",
         logo: "projetos/logos/nono pizza.png",
         descricao: `O Nono Pizza e Grill é uma pizzaria de família, que tradicionalmente atende Várzea Grande com salgados muito famosos! Com o sucesso da salgadaria, decidiram inovar e inaugurar uma pizzaria para o público familiar, oferecendo pizzas, pratos a la carte, grelhados e porções! Dessa maneira, no projeto, optamos por setorizar a cozinha de acordo com as praças de operação: uma para pizza, outra para pratos/grelhados e a última para lavagem de louças do salão e utensílios da cozinha.`,
         imagens: [
@@ -444,6 +469,7 @@ O grande desafio neste projeto foi conciliar o novo espaço com o aproveitamento
         id: 27,
         nome: "vivans complexo de eventos",
         local: "Cuiaba - MT",
+        thumbnail:"thumbnais/projetos/amazon.jpg",
         logo: "projetos/logos/vivans.png",
         descricao: `O Vivans é um complexo de eventos que poderá ofertar uma diversidade de festas e comemorações. Por isso, é muito importante escolher equipamentos multifuncionais e um fluxo de operação que possibilite agilidade no atendimento e saída de pratos! Dessa maneira, optamos por criar uma ilha de cocção, circundada por bancadas de apoio para manipulação e uma bateria de geladeiras e freezers, criando uma setorização de praças. A saída dos pratos se dá através de uma grande bancada, onde os garçons podem se aproximar, mas não adentram a cozinha.`,
         imagens: [

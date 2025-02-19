@@ -1,9 +1,9 @@
-import BotaoPrincipal from "./mainButton/BotaoPrincipal.vue";
-import MidiasSociais from "./socialMedias/MidiasSociais.vue";
-import ListaMenu from "./ListaMenu.vue";
+import BotaoPrincipal from "@/components/mainButton/BotaoPrincipal.vue";
+import MidiasSociais from "@/components/socialMedias/MidiasSociais.vue";
+import ListaMenu from "@/components/ListaMenu.vue";
 
 export default {
-  components: { BotaoPrincipal, MidiasSociais, ListaMenu },
+  name:"Cabecalho",
   methods: {
     toogleMenu: function () {
       const menuNavegacao = document.querySelector("#moblile nav");
@@ -18,4 +18,5 @@ export default {
       menuNavegacao.classList.add(addClasse);
     },
   },
+  components: { BotaoPrincipal, MidiasSociais, ListaMenu }
 };

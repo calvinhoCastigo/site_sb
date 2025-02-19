@@ -81,7 +81,9 @@ video {
   }
 
   video {
-    display: none;
+    top: 20px;
+    width: 120%;
+    /* display: none; */
   }
 }
 </style>
