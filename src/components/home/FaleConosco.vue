@@ -17,7 +17,7 @@ export default {
     <section>
         <div class="cont_bloco">
             <div class="cont_imagem">
-                <img :src="url_imagem + 'contato.png'" alt="" srcset="" />
+                <img :src="url_imagem + 'contato.jpg'" alt="" srcset="" />
             </div>
                 <div class="texto_bloco">
                 <FormularioContatoProvisorio/>

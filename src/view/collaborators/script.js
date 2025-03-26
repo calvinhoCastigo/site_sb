@@ -6,7 +6,7 @@ import clientes from "@/data/clientes";
 export default {
   name: "ClientesView",
   data() {
-    const banner = import.meta.env.VITE_IMGBODY + "banners/bannerclientes.png";
+    const banner = import.meta.env.VITE_IMGBODY + "banners/bannerclientes.jpg";
     return {
       banner: banner,
       mostraBotaoTodos: false,

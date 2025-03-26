@@ -12,7 +12,7 @@ export default {
                     texto2: 'Fernando Medeiros, CEO do Japidinho (Cuiabá - Mato Grosso)'
                 }, {
                     nome: "BNP",
-                    logo: 'images/depoimentos/fastfood1depo.png',
+                    logo: 'images/depoimentos/fastfood1depo.jpg',
                     texto: 'Contratamos a SB FoodTech para fazer nosso projeto e isso foi essencial para a boa funcionalidade da nossa cozinha. Organizaram para nós o tamanho dos equipamentos, disposição dos mobiliários, fluxograma da cozinha, tudo dentro das normas da vigilância sanitária. Se você quiser montar um negócio na área da gastronomia, chame eles para te ajudar!',
                     texto2: 'Rodrigo Maciel, CEO do Burguer na Praça (Cuiabá - Mato Grosso)'
                 }, {

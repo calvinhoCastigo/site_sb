@@ -11,8 +11,7 @@
           </div>
         </div>
         <div class="container_footer">
-          <img :src="url_imagem + '01.png'" class="imagensFooter" alt="" />
-          <!-- <FormularioContato :labels="false" /> -->
+          <img :src="url_imagem + '01.jpg'" class="imagensFooter" alt="" />
           <div>
             <MidiasSociais :por_estenso="true" :email="true" :facebook="true" :instagram="true" :whatsapp="true"
               :telefone="true" :button="true" />
@@ -20,7 +19,7 @@
 
         </div>
         <div class="container_footer">
-          <img :src="url_imagem + '02.png'" class="imagensFooter" alt="" />
+          <img :src="url_imagem + '02.jpg'" class="imagensFooter" alt="" />
           <div class="info_container">
             <div>
               <h3>ENDEREÇO</h3>
@@ -40,7 +39,7 @@
           </div>
         </div>
         <div class="container_footer">
-          <img :src="url_imagem + '03.png'" class="imagensFooter" alt="" />
+          <img :src="url_imagem + '03.jpg'" class="imagensFooter" alt="" />
           <div class="info_container">
             <div>
               <h3>TELEFONE</h3>

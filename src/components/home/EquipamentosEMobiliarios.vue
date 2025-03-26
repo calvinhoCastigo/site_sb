@@ -22,7 +22,7 @@ export default {
                     ],
                     paragrafoFinal: "Conheça a Aços Macom e a Prática, por meio da SB Foodtech",
                     rota: "/equipamentos",
-                    imagem: "equiphorizontal1.png",
+                    imagem: "equiphorizontal1.jpg",
                 },
                 {
                     titulo: "para panificação",
@@ -36,7 +36,7 @@ export default {
                     ],
                     paragrafoFinal: "Conheça a Prática, por meio da SB Foodtech!",
                     rota: "/equipamentos",
-                    imagem: "equiphorizontal2.png",
+                    imagem: "equiphorizontal2.jpg",
                 },
                 {
                     titulo: "para salgadaria e confeitaria",
@@ -50,7 +50,7 @@ export default {
                     ],
                     paragrafoFinal: "Conheça a Bralyx, por meio da SB Foodtech!",
                     rota: "/equipamentos",
-                    imagem: "equiphorizontal3.png",
+                    imagem: "equiphorizontal3.jpg",
                 },
                 {
                     titulo: "para outros segmentos",
@@ -64,7 +64,7 @@ export default {
                     ],
                     paragrafoFinal: "Somos representantes de + de 20 marcas nacionais! Conheça nosso portfólio!",
                     rota: "/equipamentos",
-                    imagem: "equiphorizontal4.png"
+                    imagem: "equiphorizontal4.jpg"
                 }
             ]
         }

@@ -6,7 +6,7 @@ import tipo_equipamento from '@/data/tipo_equipamento';
 export default {
     name: "EquipamentListView",
     data() {
-        const banner = import.meta.env.VITE_IMGBODY + 'banners/bannerequip.png';
+        const banner = import.meta.env.VITE_IMGBODY + 'banners/bannerequip.jpg';
         return {
             banner: banner,
             tipo_equipamento: tipo_equipamento,

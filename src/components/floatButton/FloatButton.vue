@@ -2,7 +2,7 @@
 <template>
   <MidiasSociais :whatsapp="true" />
   <a href="https://api.whatsapp.com/send?phone=556581340077" id="floatButton" target="_blank">
-    <img src="../../../public/icons/whatsapp.svg" alt="">
+    <img src="/icons/whatsapp.svg" alt="">
     <p>Fale Conosco</p>
   </a>
 </template>
